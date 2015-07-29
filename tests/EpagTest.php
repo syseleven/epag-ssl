@@ -1,9 +1,14 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: markus
- * Date: 12.07.15
- * Time: 12:04
+ * This file is part of the syseleven/epag-ssl package
+ * (c) SysEleven GmbH <info@syseleven.de>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ *
+ * @author M. Seifert <m.seifert@syseleven.de
+ * @version 0.9.1
+ * @package SysEleven\EpagSsl\Tests
  */
 
 namespace SysEleven\EpagSsl\Tests;
@@ -25,6 +30,10 @@ use SysEleven\EpagSsl\Types\GetOrdersRequest;
 use SysEleven\EpagSsl\Types\ParseCsrRequest;
 use SysEleven\EpagSsl\Types\ParseCsrResponse;
 
+/**
+ * Class EpagTest
+ * @package SysEleven\EpagSsl\Tests
+ */
 class EpagTest extends \PHPUnit_Framework_TestCase
 {
 

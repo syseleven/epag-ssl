@@ -1,9 +1,14 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: markus
- * Date: 23.06.15
- * Time: 18:51
+ * This file is part of the syseleven/epag-ssl package
+ * (c) SysEleven GmbH <info@syseleven.de>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ *
+ * @author M. Seifert <m.seifert@syseleven.de
+ * @version 0.9.1
+ * @package SysEleven\EpagSsl
  */
 
 namespace SysEleven\EpagSsl;
@@ -28,6 +33,10 @@ use SysEleven\EpagSsl\Types\ParseCsrResponse;
 use SysEleven\EpagSsl\Types\ResendApproverEMailRequest;
 use Zend\Soap\Client;
 
+/**
+ * Class Epag
+ * @package SysEleven\EpagSsl
+ */
 class Epag
 {
     /**
